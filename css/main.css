@@ -1,0 +1,176 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.body {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  display: inline-block;
+  border-radius: 0 0 10px 10px;
+  padding: 18px;
+  background: linear-gradient(180deg, #3B357D 0%, #6A40AF 100%);
+  margin-right: 10px;
+  height: 100vh;
+}
+.header:hover {
+  padding: 0;
+  border-radius: 0 0 10px 0;
+  height: 100vh;
+  width: 90px;
+}
+.header:hover .menuLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 350px;
+}
+.header:hover .linkImg {
+  margin: 18px;
+}
+
+.linkImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: white;
+  width: 50px;
+  height: 50px;
+}
+
+.menuLink {
+  display: none;
+  height: 100%;
+}
+.menuLinkIcon {
+  height: 25px;
+  width: 25px;
+}
+
+.main {
+  display: inline-block;
+}
+
+.Title {
+  margin: 17px 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 38px;
+}
+.paragraf {
+  margin: 15px 0 0 15px;
+  font-family: "Roboto Medium";
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+tr {
+  border: 1px solid #d6d5d5;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+tr:nth-child(1) {
+  border-bottom: 2px solid rgba(25, 90, 187, 0.5);
+}
+
+td, th {
+  line-height: 55px;
+}
+
+table {
+  text-align: left;
+  width: 1100px;
+  height: 246px;
+}
+
+.boxColor {
+  padding: 24px 24px 24px 24px;
+  background-color: #f8f9ff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 347px;
+  justify-content: space-between;
+}
+
+.user {
+  height: 56px;
+  border-radius: 3px 3px 0px 0;
+  background-color: rgb(25, 90, 187);
+  padding: 1px;
+}
+
+.BoxLink {
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkFooter {
+  text-align: center;
+  border-radius: 5px;
+  width: 62px;
+  height: 40px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 40px;
+  border: 1px solid #c4c4c4;
+}/*# sourceMappingURL=main.css.map */
